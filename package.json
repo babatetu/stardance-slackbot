@@ -1,0 +1,26 @@
+{
+  "name": "stardance-astrobot",
+  "version": "1.0.0",
+  "description": "A feature-packed NASA space exploration Slack bot built for the Hack Club Stardance Challenge.",
+  "main": "src/index.js",
+  "type": "module",
+  "scripts": {
+    "start": "node src/index.js",
+    "dev": "node --watch src/index.js",
+    "test": "node test/test-apis.js"
+  },
+  "keywords": [
+    "slackbot",
+    "hackclub",
+    "stardance",
+    "nasa",
+    "space",
+    "bolt-js"
+  ],
+  "author": "",
+  "license": "MIT",
+  "dependencies": {
+    "@slack/bolt": "^3.21.4",
+    "dotenv": "^16.4.7"
+  }
+}
